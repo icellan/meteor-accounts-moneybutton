@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'accounts-moneybutton',
+  name: 'icellan:accounts-moneybutton',
   summary: "Login service for Money Button accounts",
   git: 'https://github.com/icellan/meteor-accounts-moneybutton.git',
   version: "1.0.0",
