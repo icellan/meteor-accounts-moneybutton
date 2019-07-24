@@ -14,9 +14,9 @@ Package.onUse(api => {
   api.use('icellan:moneybutton-oauth@1.0.0');
   api.imply('icellan:moneybutton-oauth@1.0.0');
 
-  api.use('http', ['client', 'server']);
+  api.use('http@1.4.2', ['client', 'server']);
 
-  api.use(['accounts-ui', 'icellan:moneybutton-config-ui'], ['client', 'server'], { weak: true });
+  api.use(['accounts-ui@1.3.1', 'icellan:moneybutton-config-ui@1.0.0'], ['client', 'server'], { weak: true });
   api.addFiles("notice.js");
 
   api.addFiles("moneybutton.js");
