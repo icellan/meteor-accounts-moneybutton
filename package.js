@@ -2,7 +2,7 @@ Package.describe({
   name: 'icellan:accounts-moneybutton',
   summary: "Login service for Money Button accounts",
   git: 'https://github.com/icellan/meteor-accounts-moneybutton.git',
-  version: "1.0.1",
+  version: "1.0.2",
 });
 
 Package.onUse(api => {
@@ -11,8 +11,8 @@ Package.onUse(api => {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth@1.1.16', ['client', 'server']);
-  api.use('icellan:moneybutton-oauth@1.0.1');
-  api.imply('icellan:moneybutton-oauth@1.0.1');
+  api.use('icellan:moneybutton-oauth@1.0.2');
+  api.imply('icellan:moneybutton-oauth@1.0.2');
 
   api.use('http@1.4.2', ['client', 'server']);
 
